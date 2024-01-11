@@ -159,3 +159,38 @@ footer .container_footer .red-social a{
 footer .container_footer .red-social a:hover{
     color: #005187;
 }
+
+@media screen and (max-width: 800px){
+    .navbar .logo{
+        margin-bottom: 1rem;
+        font-size: 45px;
+    }
+
+    .navbar{
+        flex-direction: column;
+        text-align: center;
+        height: 100%;
+    }
+
+    .navbar a{
+        font-size: 20px;
+    }
+
+    .products-recommend {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        margin: 0;
+        margin-left: 3rem;
+        padding: 2rem 1rem;
+
+    }
+
+    .product-img{
+        width: 18rem;
+        object-fit: cover;
+    }
+    .product-details{
+        width: 18rem;
+    }
+
+}
