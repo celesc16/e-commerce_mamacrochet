@@ -2,12 +2,14 @@
 
 :root{
     --clr-nav: #a36d68;
-    --clr-white: #ececec;
+    --clr-white: #dddddd;
     --clr-letra: white;
     --clr-text-subdivision: #3a0310;
     --clr-backbutton: #e6cecd;
     --clr-footer: #704c52;
     --clr-logo: #e1b8af;
+    --clr-grey: #f7f7f7;
+    --clr-red: #9e2222;
 }
 
 *{
@@ -36,7 +38,7 @@ ul{
 .logo{
     color: var(--clr-logo);
     font-size: 2rem;
-    margin: 20px;
+    margin-left: 20px;
 }
 
 
@@ -112,30 +114,34 @@ a{
 }
 
 footer{
-    background-color: var(--clr-footer);
     width: 100%;
+    background-color: var(--clr-footer);
     
 }
 
 footer .container_footer{
     width: 100%;
     max-width: 1200px;
-    margin: auto;
     display: grid;
+    margin: 0px;
     grid-template-columns: repeat(3,1fr);
-    grid-gap: 50px;
+    grid-gap: 70px;
     padding: 45px 0px;
 }
 
 footer .container_footer .box h1{
+    width: 100%;
+    height: 100%;
     display: flex;
-    margin: 20px;
+    justify-content: center; /* Centrar horizontal*/
+    align-items: center; /* centrar vertical*/
 }
 
 footer .container_footer .box h2{
     color: var(--clr-letra);
     margin-bottom: 1rem;
     font-size: 20px;
+    text-align: center;
 }
 
 footer .container_footer .box p{
@@ -146,24 +152,121 @@ footer .container_footer .box p{
 footer .container_footer .red-social a{
     display: inline-block;
     text-decoration: None;
-    width: 45px;
-    height: 45px;
-    line-height: 45px;
+    width: 38px;
+    height: 38px;
+    line-height: 38px;
     color: #fff;
     margin-right: 10px;
     background-color: var(--clr-logo);
     text-align: center;
     transition: all 300ms ease;
+    border-radius: 1rem;
 }
 
 footer .container_footer .red-social a:hover{
     color: #005187;
 }
 
+
+
+/*Carrito*/
+
+.container-carrito{
+    padding: 28px;
+}
+
+.carrito-vacio {
+    color: var(--clr-nav);
+    display: none;
+}
+
+.carrito-products{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.carrito-product {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--clr-grey);
+    color: var(--clr-nav);
+    padding: .5rem;
+    padding-right: 1.5rem;
+    border-radius: 1rem;
+}
+
+.carrito-product-img {
+    width: 4.5rem;
+    height: 4.5rem;
+    object-fit: cover;
+    border-radius: 1rem;
+}
+
+.carrito-product small{
+    font-size: .75rem;
+}
+
+.button-product-eliminar{
+    text-decoration: none;
+    border: none;
+    background-color: transparent;
+    color: var(--clr-red);
+    cursor: pointer;
+}
+
+.carrito-actions{
+    display: flex;
+    justify-content: space-between;
+}
+
+.carrito-actions-empty{
+    border: none;
+    background-color: var(--clr-grey);
+    margin-top: 1rem;
+    padding: 1rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: .75rem;
+    color: var(--clr-nav);
+}
+
+.carrito-actions-right{
+    display: flex;
+}
+
+.carrito-actions-total{
+    display: flex;
+    background-color: var(--clr-gray);
+    padding: 1rem;
+    color: var(--clr-nav);
+    text-transform: uppercase;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    margin-top: 1rem;
+    gap: 1rem;
+}
+
+.carrito-actions-buy{
+    border: 0;
+    background-color: var(--clr-nav);
+    margin-top: 1rem;
+    padding: 1rem;
+    color: var(--clr-white);
+    text-transform: uppercase;
+    cursor: pointer;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
+
+
+/* mediaquieres*/
 @media screen and (max-width: 800px){
     .navbar .logo{
         margin-bottom: 1rem;
-        font-size: 45px;
+        font-size: 36px;
     }
 
     .navbar{
@@ -173,7 +276,7 @@ footer .container_footer .red-social a:hover{
     }
 
     .navbar a{
-        font-size: 20px;
+        font-size: 16px;
     }
 
     .products-recommend {
@@ -193,4 +296,11 @@ footer .container_footer .red-social a:hover{
         width: 18rem;
     }
 
+    .title-recommend{
+        font-size: 22px;
+    }
+
+    footer .container_footer .box h1{
+        font-size: 36px;
+    }
 }
