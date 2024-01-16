@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mama Crochet Carrito</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/static/css/style.css">
 </head>
 <body>
     <nav class="navbar">
@@ -13,12 +13,17 @@
         </header>
         <ul>
             <li>
-                <a class="init" href="index.html"> 
-                    <i class="fa-solid fa-arrow-left"></i> Seguir Comprando
-                </a>
-                <a href="./carrito.html">
-                    <i class="fa-solid fa-cart-shopping"></i> Carrito
-                </a>  
+                <li>
+                    <a class="init" href="/static/index.html"> 
+                        <i class="fa-solid fa-arrow-left"></i> Seguir Comprando
+                    </a>
+                </li>
+                
+               <li>
+                 <a href="./carrito.html">
+                     <i class="fa-solid fa-cart-shopping"></i> Carrito
+                 </a> 
+               </li> 
             </li>
         </ul>
     </nav>
@@ -30,7 +35,7 @@
 
             <div class="carrito-products">
                <div class="carrito-product">
-                    <img class="carrito-product-img" src="imagenes/babyyoda.jpg" alt="#">
+                    <img class="carrito-product-img" src="/static/imagenes/babyyoda.jpg" alt="#">
                     <div class="carrito-product-title">
                         <small>Titulo</small>
                         <h3>Baby Yoda</h3>
@@ -55,7 +60,7 @@
                 </div>
 
                 <div class="carrito-product">
-                    <img  class="carrito-product-img" src="imagenes/set-bienbenida.jpg" alt="#">
+                    <img  class="carrito-product-img" src="/static/imagenes/set-bienbenida.jpg" alt="#">
 
                     <div class="carrito-product-title">
                         <small>Titulo</small>
@@ -105,6 +110,6 @@
 
    
     <script src="https://kit.fontawesome.com/81581fb069.js" crossorigin="anonymous"></script>
-    <script></script>
+    <script src="main.js" ></script>
 </body>
 </html>

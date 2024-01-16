@@ -1,0 +1,157 @@
+[
+    {
+        "id": "Set-de-hipopotamo",
+        "titulo": "Set de Hipopotamo",
+        "imagen": "imagenes/hipo.jpg",
+        "clase": "MasPopulares",
+        "categoria": {
+            "nombre": "Set de Bienvenidas",
+            "id": "set-de-bienidas"
+        },
+        "precio": 850
+
+    },
+
+    {
+        "id": "Set-de-conejo",
+        "titulo": "Set de conejo",
+        "imagen": "imagenes/set-bienbenida.jpg",
+        "clase": "MasPopulares",
+        "categoria": {
+            "nombre": "Set de Bienvenidas",
+            "id": "set-de-bienvenidas"
+        },
+        "precio": 850
+
+    },
+
+    {
+        "id": "amigurumi-bayyoda",
+        "titulo": "Baby Yoda",
+        "imagen": "imagenes/babyyoda.jpg",
+        "clase": "MasPopulares",
+        "categoria": {
+            "nombre": "Peliculas-animes",
+            "id": "peliculas-animes"
+        },
+        "precio": 850
+
+    },
+
+    {
+        "id": "amigurumi-conejo-azul",
+        "titulo": "Conejo Pepe",
+        "imagen": "imagenes/conejoh.jpg",
+        "clase": "MasPopulares",
+        "categoria": {
+            "nombre": "Animeales",
+            "id": "animales"
+        },
+        "precio": 850
+
+    },
+
+    {
+        "id": "amigurmi-pac-man",
+        "titulo": "Pac Man",
+        "imagen": "imagenes/Pac-Man-Cover.png",
+        "clase": "MasPopulares",
+        "categoria": {
+            "nombre": "Videojuegos",
+            "id": "videojuegos"
+        },
+        "precio": 850
+
+    },
+
+    {
+        "id": "sujetadores-mono",
+        "titulo": "Sujetadores Mono",
+        "imagen": "imagenes/sujetadores-mono.jpg",
+        "clase": "MasPopulares",
+        "categoria": {
+            "nombre": "Sujetadores",
+            "id": "sujetadores"
+        },
+        "precio": 850
+
+    },
+    {
+        "id": "Set-de-hipopotamo",
+        "titulo": "Set de Hipopotamo",
+        "imagen": "imagenes/hipo.jpg",
+        "clase": "Ofertas",
+        "categoria": {
+            "nombre": "Set de Bienvenidas",
+            "id": "set-de-bienidas"
+        },
+        "precio": 700
+
+    },
+
+    {
+        "id": "Set-de-conejo",
+        "titulo": "Set de conejo",
+        "imagen": "imagenes/set-bienbenida.jpg",
+        "clase": "Ofertas",
+        "categoria": {
+            "nombre": "Set de Bienvenidas",
+            "id": "set-de-bienvenidas"
+        },
+        "precio": 700
+
+    },
+
+    {
+        "id": "amigurumi-bayyoda",
+        "titulo": "Baby Yoda",
+        "imagen": "imagenes/babyyoda.jpg",
+        "clase": "Ofertas",
+        "categoria": {
+            "nombre": "Peliculas-animes",
+            "id": "peliculas-animes"
+        },
+        "precio": 700
+
+    },
+
+    {
+        "id": "amigurumi-conejo-azul",
+        "titulo": "Conejo Pepe",
+        "imagen": "imagenes/conejoh.jpg",
+        "clase": "Ofertas",
+        "categoria": {
+            "nombre": "Animeales",
+            "id": "animales"
+        },
+        "precio": 700
+
+    },
+
+    {
+        "id": "amigurmi-pac-man",
+        "titulo": "Pac Man",
+        "imagen": "imagenes/Pac-Man-Cover.png",
+        "clase": "Ofertas",
+        "categoria": {
+            "nombre": "Videojuegos",
+            "id": "videojuegos"
+        },
+        "precio": 700
+
+    },
+
+    {
+        "id": "sujetadores-mono",
+        "titulo": "Sujetadores Mono",
+        "imagen": "imagenes/sujetadores-mono.jpg",
+        "clase": "Ofertas",
+        "categoria": {
+            "nombre": "Sujetadores",
+            "id": "sujetadores"
+        },
+        "precio": 700
+
+    }
+
+]

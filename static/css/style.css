@@ -13,8 +13,8 @@
 }
 
 *{
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
 }
 
@@ -22,7 +22,7 @@ body{
     font-family: 'Ubuntu';
 }
 
-ul{
+ul , ol{
     list-style-type: none;
 }
 
@@ -35,18 +35,48 @@ ul{
     width: 100%;
 }
 
+.navbar li{
+    display: inline-block;
+    padding: 0px 25px;
+}
+
+.navbar li a{
+    background-color: var(--clr-logo);
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+    border-radius: .5rem;
+}
+
+.navbar li a:hover{
+    background-color: var(--clr-text-subdivision);
+}
+
+.navbar > li{
+    float: left;
+}
+
+.navbar li ul{
+    display: none;
+    position: absolute;
+    min-width: 140px;
+}
+
+.navbar li:hover > ul {
+    display: block;
+}
+
+
 .logo{
     color: var(--clr-logo);
     font-size: 2rem;
-    margin-left: 20px;
 }
 
 
 a{
     text-decoration: none;
-    margin: 30px;
-    font-size: 17px;
-    color: var(--clr-letra);
+    font-size: 1rem;
 }
 
 .title-recommend{
@@ -229,7 +259,7 @@ footer .container_footer .red-social a:hover{
     text-transform: uppercase;
     cursor: pointer;
     border-radius: .75rem;
-    color: var(--clr-nav);
+    color: var(c);
 }
 
 .carrito-actions-right{

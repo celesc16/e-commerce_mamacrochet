@@ -4,163 +4,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mama crochet</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
 
     <nav class="navbar">
         <header>
-            <h1 class="logo"><img src="#" alt="">Mama crochet</h1>
+            <h1 class="logo"><img src="#" alt="">Mama Crochet</h1>
         </header>
         <ul>
-            <li>
-                <a href="index.html">Inicio</a>
-                <a href=""> 
-                    <i class="fa-sharp fa-solid fa-bars"></i> Productos 
-                </a>
-                <a href="./carrito.html">
-                    <i class="fa-solid fa-cart-shopping"></i> Carrito <span id="number" class="number">0</span>
-                </a>  
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="#">Categoria</a>
+                <ul>
+                    <li id="sujetadores" class="link-categorys"><a href="Categoria/sujetadores.html">Sujetadores</a></li>
+                    <li id="animales" class="link-categorys"><a href="Categoria/animales.html">Animales</a></li>
+                    <li id="videojuegos" class="link-categorys"><a href="Categoria/videojuegos.html">Videojuegos</a></li>
+                    <li id="set-bienvenida" class="link-categorys"><a href="Categoria/bienvenida.html">Set de Bienvenida</a></li>
+                    <li id="peli-anime" class="link-categorys"><a href="Categoria/pelis-anime.html">Peliculas y Anime</a></li>
+                </ul>
+                
             </li>
+
+            <li>
+             <a href="carrito.html">
+                <i class="fa-solid fa-cart-shopping"></i> Carrito <span id="number" class="number">0</span>
+             </a>  
+           </li>
         </ul>
     </nav>
 
     <main>
-        <h2 class="title-recommend">Mas Populares</h2>
-        <div class="products-recommend">
-            <div class="product">
-                <img class="product-img" src="imagenes/hipo.jpg" alt="#" >
-                <div class="product-details">
-                    <h3 class="product-title">Set de bienvenida-hipopotamo</h3>
-                    <p class="product-price" >$8500</p>
-                    <button class="product-trolley">Agregar al Carrito</button>
-                </div>
-            </div>
-
-            <div class="product">
-                <img class="product-img" src="imagenes/set-bienbenida.jpg" alt="#">
-                <div class="product-details">
-                    <h3 class="product-title">Set de bienvenida-Conejo</h3>
-                    <p class="product-price">$8500</p>
-                    <button class="product-trolley">Agregar al Carrito</button>
-                </div>
-            </div>
-
-            <div class="product">
-                <img class="product-img" src="imagenes/babyyoda.jpg" alt="#" >
-                <div class="product-details">
-                    <h3 class="product-title">Baby Yoda</h3>
-                    <p class="product-price">$8500</p>
-                    <button class="product-trolley">Agregar al Carrito</button>
-                </div>
-            </div>
-
-            <div class="product">
-                <img class="product-img" src="imagenes/conejoh.jpg" alt="#">
-                <div class="product-details">
-                    <h3 class="product-title"> Conejo </h3>
-                    <p class="product-price">$8500</p>
-                    <button class="product-trolley">Agregar al Carrito</button>
-                </div>
-            </div>
-
-            <div class="product">
-                <img class="product-img" src="imagenes/Pac-Man-Cover.png" alt="#">
-                <div class="product-details">
-                    <h3 class="product-title">Amigurumi Pac man</h3>
-                    <p class="product-price">$8500</p>
-                    <button class="product-trolley">Agregar al Carrito</button>
-                </div>
-            </div>
-
-            <div class="product">
-                <img class="product-img" src="imagenes/sujetadores-mono.jpg" alt="#">
-                <div class="product-details">
-                    <h3 class="product-title">sujetadores Monos</h3>
-                    <p class="product-price">$8500</p>
-                    <button class="product-trolley">Agregar al Carrito</button>
-                </div>
-            </div>
-
-        </div>
+        <h2 class="title-recommend">Todos los Productos</h2>
+        <div id ="container-products-popular" class="products-recommend">
+            <!--Se llena con Js-->
     </main>    
 
     <article>
-        <h2 class="title-recommend">Promos</h2>
-        <div class="products-recommend">
-            <div class="product">
-                <img class="product-img" src="imagenes/hipo.jpg" alt="#" >
-                <div class="product-details">
-                    <h3 class="product-title">Set de bienvenida-hipopotamo + sujetadores</h3>
-                    <p class="product-price" >$8500</p>
-                    <button class="product-trolley">Agregar al Carrito</button>
-                </div>
-            </div>
-
-            <div class="product">
-                <img class="product-img" src="imagenes/set-bienbenida.jpg" alt="#">
-                <div class="product-details">
-                    <h3 class="product-title">Set de bienvenida-Conejo + sujetadores</h3>
-                    <p class="product-price">$8500</p>
-                    <button class="product-trolley">Agregar al Carrito</button>
-                </div>
-            </div>
-
-            <div class="product">
-                <img class="product-img" src="imagenes/babyyoda.jpg" alt="#" >
-                <div class="product-details">
-                    <h3 class="product-title">Set de star wars</h3>
-                    <p class="product-price">$8500</p>
-                    <button class="product-trolley">Agregar al Carrito</button>
-                </div>
-            </div>
-
-            <div class="product">
-                <img class="product-img" src="imagenes/conejoh.jpg" alt="#">
-                <div class="product-details">
-                    <h3 class="product-title">Familia Conejo </h3>
-                    <p class="product-price">$8500</p>
-                    <button class="product-trolley">Agregar al Carrito</button>
-                </div>
-            </div>
-
-            <div class="product">
-                <img class="product-img" src="imagenes/Pac-Man-Cover.png" alt="#">
-                <div class="product-details">
-                    <h3 class="product-title">Pac man + Fantasma </h3>
-                    <p class="product-price">$8500</p>
-                    <button class="product-trolley">Agregar al Carrito</button>
-                </div>
-            </div>
-
-            <div class="product">
-                <img class="product-img" src="imagenes/sujetadores-mono.jpg" alt="#">
-                <div class="product-details">
-                    <h3 class="product-title">Conejos de Navidad</h3>
-                    <p class="product-price">$8500</p>
-                    <button class="product-trolley">Agregar al Carrito</button>
-                </div>
-            </div>
-
-            <div class="product">
-                <img class="product-img" src="imagenes/Pac-Man-Cover.png" alt="#">
-                <div class="product-details">
-                    <h3 class="product-title">Pac man + Fantasma </h3>
-                    <p class="product-price">$8500</p>
-                    <button class="product-trolley">Agregar al Carrito</button>
-                </div>
-            </div>
-
-            <div class="product">
-                <img class="product-img" src="imagenes/sujetadores-mono.jpg" alt="#">
-                <div class="product-details">
-                    <h3 class="product-title">Conejos de Navidad</h3>
-                    <p class="product-price">$8500</p>
-                    <button class="product-trolley">Agregar al Carrito</button>
-                </div>
-            </div>
-
-
+        <h2 class="title-recommend">Ofertas</h2>
+        <div id="container-products-ofertas" class="products-recommend">
+          <!--Se llena con Js-->
         </div>
     </article>
 
@@ -193,6 +75,6 @@
 
     </footer>
     <script src="https://kit.fontawesome.com/81581fb069.js" crossorigin="anonymous"></script>
-    <script></script>
+    <script src="/static/Js/main.js"></script>
 </body>
 </html>
