@@ -31,9 +31,9 @@
     <main>
         <h2 class="title-recommend">Carrito</h2>
         <div class="container-carrito">
-            <p class="carrito-vacio">Tu carrito esta vacio <i class="fa-regular fa-face-frown"></i> </p>
+            <p id="trolley-empty" class="carrito-vacio">Tu carrito está vacio <i class="fa-regular fa-face-frown"></i> </p>
 
-            <div class="carrito-products">
+            <div id="trolley-products" class="carrito-products">
                <div class="carrito-product">
                     <img class="carrito-product-img" src="/static/imagenes/babyyoda.jpg" alt="#">
                     <div class="carrito-product-title">
@@ -88,10 +88,10 @@
 
             </div>
 
-            <div class="carrito-actions">
+            <div id="trolley-actions" class="carrito-actions">
 
                 <div class="carrito-actions-left">
-                    <button class="carrito-actions-empty">Vaciar Carrito</button>
+                    <button id="button-empty-trolley" class="carrito-actions-empty">Vaciar Carrito</button>
                 </div>
 
                 <div class="carrito-actions-right">
@@ -99,10 +99,11 @@
                         <p>Total</p>
                         <p id="total">$1600</p>
                     </div>
-                    <button class="carrito-actions-buy">Comprar Ahora</button>
+                    <button id="button-buy-trolley" class="carrito-actions-buy">Comprar Ahora</button>
                 </div>
-
             </div>
+
+            <p id="trolley-buy" class="trolley-buy disabled">Muchas gracias por tu Compra<i class="fa-regular fa-face-smile"></i></p>
 
         </div>
 
@@ -110,6 +111,6 @@
 
    
     <script src="https://kit.fontawesome.com/81581fb069.js" crossorigin="anonymous"></script>
-    <script src="main.js" ></script>
+    <script src="Js/carrito.js" ></script>
 </body>
 </html>

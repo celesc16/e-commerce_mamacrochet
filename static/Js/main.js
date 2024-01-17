@@ -13,7 +13,6 @@ const containerProductsOfertas = document.querySelector("#container-products-ofe
 let buttonTrolley = document.querySelectorAll(".product-trolley");
 const number = document.querySelector("#number");
 
-
 function carryProducts(){
     
     products.forEach(product => {
@@ -59,7 +58,16 @@ function updateButtonAdd(){
     });
 }
 
-const productsInTrolley = []
+let productsInTrolley;
+
+let productsInTrolleyLS = localStorage.getItem("product-in-trolley");
+
+if (productsInTrolleyLS) {
+    productsInTrolley = JSON.parse(productsInTrolleyLS);
+    updateNumber();
+} else {
+    productsInTrolley = [];
+}
 
 function addtrolley(e){
     const idBottom = e.currentTarget.id
