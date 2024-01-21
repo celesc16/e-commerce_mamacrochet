@@ -6,7 +6,7 @@ const containerTrolleyBuy = document.querySelector("#trolley-buy");
 let buttonsEliminated = document.querySelectorAll(".button-product-eliminar")
 const buttonBuyTrolley = document.querySelector("#button-buy-trolley")
 
-let productsInTrolley = localStorage.getItem("product-in-trolley")
+let productsInTrolley = localStorage.getItem("products-in-trolley")
 productsInTrolley = JSON.parse(productsInTrolley)
 
 function carryTrolleyProducts() {
@@ -79,6 +79,6 @@ function eliminatedOfTrolley(e){
     productsInTrolley.splice(index,1);
     carryTrolleyProducts()
 
-    localStorage.setItem("product-in-trolley",JSON.stringify(productsInTrolley));
+    localStorage.setItem("products-in-trolley",JSON.stringify(productsInTrolley));
 
 }

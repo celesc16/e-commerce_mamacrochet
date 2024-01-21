@@ -60,7 +60,7 @@ function updateButtonAdd(){
 
 let productsInTrolley;
 
-let productsInTrolleyLS = localStorage.getItem("product-in-trolley");
+let productsInTrolleyLS = localStorage.getItem("products-in-trolley");
 
 if (productsInTrolleyLS) {
     productsInTrolley = JSON.parse(productsInTrolleyLS);
@@ -84,7 +84,7 @@ function addtrolley(e){
 
     updateNumber()
 
-    localStorage.setItem("product-in-trolley", JSON.stringify(productsInTrolley))
+    localStorage.setItem("products-in-trolley", JSON.stringify(productsInTrolley))
 }
 
 function updateNumber(){

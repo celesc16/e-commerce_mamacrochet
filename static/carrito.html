@@ -31,64 +31,13 @@
     <main>
         <h2 class="title-recommend">Carrito</h2>
         <div class="container-carrito">
-            <p id="trolley-empty" class="carrito-vacio">Tu carrito está vacio <i class="fa-regular fa-face-frown"></i> </p>
+            <p id="trolley-empty" class="trolley-empty">Tu carrito está vacio <i class="fa-regular fa-face-frown"></i> </p>
 
-            <div id="trolley-products" class="carrito-products">
-               <div class="carrito-product">
-                    <img class="carrito-product-img" src="/static/imagenes/babyyoda.jpg" alt="#">
-                    <div class="carrito-product-title">
-                        <small>Titulo</small>
-                        <h3>Baby Yoda</h3>
-                    </div>
-                
-                    <div class="carrito-product-amount">
-                        <small>Cantidad</small>
-                        <p>1</p>
-                    </div>
-                
-                    <div class="carrito-product-price">
-                        <small>Precio</small>
-                        <p>$850</p>
-                    </div>
-                
-                    <div class="carrito-product-subotal">
-                        <small>Subtotal</small>
-                        <p>$850</p>
-                    </div>
-
-                    <button class="button-product-eliminar"><i class="fa-regular fa-trash-can"></i></button>
-                </div>
-
-                <div class="carrito-product">
-                    <img  class="carrito-product-img" src="/static/imagenes/set-bienbenida.jpg" alt="#">
-
-                    <div class="carrito-product-title">
-                        <small>Titulo</small>
-                        <h3>Set de bienvenida Conejo</h3>
-                    </div>
-
-                    <div class="carrito-product-amount">
-                        <small>Cantidad</small>
-                        <p>2</p>
-                    </div>
-
-                    <div class="carrito-product-price">
-                        <small>Precio</small>
-                        <p>$850</p>
-                    </div>
-
-                    <div class="carrito-product-subotal">
-                        <small>Subtotal</small>
-                        <p>$850</p>
-                    </div>
-
-                    <button class="button-product-eliminar"><i class="fa-regular fa-trash-can"></i></button>
-                </div>
-
-
+            <div id="trolley-products" class="carrito-products disabled">
+                <!--Se llena con Js-->
             </div>
 
-            <div id="trolley-actions" class="carrito-actions">
+            <div id="trolley-actions" class="carrito-actions disabled">
 
                 <div class="carrito-actions-left">
                     <button id="button-empty-trolley" class="carrito-actions-empty">Vaciar Carrito</button>
@@ -111,6 +60,6 @@
 
    
     <script src="https://kit.fontawesome.com/81581fb069.js" crossorigin="anonymous"></script>
-    <script src="Js/carrito.js" ></script>
+    <script src="./Js/carrito.js" ></script>
 </body>
 </html>

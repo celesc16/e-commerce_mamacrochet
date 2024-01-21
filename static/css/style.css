@@ -205,9 +205,9 @@ footer .container_footer .red-social a:hover{
     padding: 28px;
 }
 
-.carrito-vacio {
+.trolley-empty,
+.trolley-buy {
     color: var(--clr-nav);
-    display: none;
 }
 
 .carrito-products{
@@ -245,7 +245,6 @@ footer .container_footer .red-social a:hover{
     color: var(--clr-red);
     cursor: pointer;
 }
-
 .carrito-actions{
     display: flex;
     justify-content: space-between;
@@ -288,6 +287,10 @@ footer .container_footer .red-social a:hover{
     cursor: pointer;
     border-top-right-radius: 1rem;
     border-bottom-right-radius: 1rem;
+}
+
+.disabled{
+    display: none;
 }
 
 
