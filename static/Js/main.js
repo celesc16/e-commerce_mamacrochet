@@ -28,12 +28,10 @@ function carryProducts(){
         `;
 
         if(product.clase === "MasPopulares"){
-            containerProducts.
-            appendChild(div);
+            containerProducts.appendChild(div);
         }
         else if(product.clase === "Ofertas"){
-            containerProductsOfertas.
-            appendChild(div);
+            containerProductsOfertas.appendChild(div);
         }
 
         //containerProducts.append(div)

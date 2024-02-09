@@ -39,7 +39,7 @@ function carryTrolleyProducts() {
                     
                 <div class="carrito-product-subotal">
                     <small>Subtotal</small>
-                    <p>${product.precio * product.cantidad }</p>
+                    <p>${product.precio * product.cantidad}</p>
                 </div>
 
                 <button class="button-product-eliminar" id= "${product.id}"><i class="fa-regular fa-trash-can"></i></button>
