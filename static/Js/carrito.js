@@ -60,7 +60,6 @@ function carryTrolleyProducts() {
 
 
     }
-
 }
 carryTrolleyProducts()
 
@@ -74,8 +73,8 @@ function updateButtonEmpty(){
 
 function eliminatedOfTrolley(e){ 
     const idButtom = e.currentTarget.id;
-    const index = productsInTrolley.findIndex(product => product.id ===idButtom);
-
+    console.log(idButtom)
+    const index = productsInTrolley.findIndex(product => product.id === idButtom);
     productsInTrolley.splice(index,1);
     carryTrolleyProducts()
 

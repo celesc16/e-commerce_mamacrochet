@@ -17,7 +17,7 @@ function carryProducts(){
     
     products.forEach(product => {
         const div = document.createElement("div");
-        div.classList.add("product")
+        div.classList.add("products")
         div.innerHTML = `
             <img class="product-img" src="${product.imagen}" alt="${product.titulo}" >
             <div class="product-details">
@@ -27,14 +27,12 @@ function carryProducts(){
             </div>
         `;
 
-        if(product.clase === "MasPopulares"){
+        if(product.categoria.clase === "MasPopulares"){
             containerProducts.appendChild(div);
         }
-        else if(product.clase === "Ofertas"){
+        else if(product.categoria.clase === "Ofertas"){
             containerProductsOfertas.appendChild(div);
         }
-
-        //containerProducts.append(div)
 
     
     })
@@ -71,7 +69,7 @@ function addtrolley(e){
     const idBottom = e.currentTarget.id
     const productAdd = products.find(product => product.id === idBottom)
 
-    if (productsInTrolley.some( product => product.id ===idBottom)){
+    if (productsInTrolley.some( product => product.id === idBottom)){
         const index = productsInTrolley.findIndex(product => product.id === idBottom)
         productsInTrolley[index].cantidad++;
 
