@@ -5,7 +5,7 @@ const containerTrolleyActions = document.querySelector("#trolley-actions");
 const containerTrolleyBuy = document.querySelector("#trolley-buy");
 let buttonsEliminated = document.querySelectorAll(".button-product-eliminar")
 const buttonEmpty = document.querySelector("#carrito-actions-empty")
-
+const buttonBuy = document.querySelector("#carrito-actions-buy")
 
 let productsInTrolley = localStorage.getItem("products-in-trolley")
 productsInTrolley = JSON.parse(productsInTrolley)
@@ -95,4 +95,17 @@ function emptyTrolley(){
 
 function updateCart(){
     total.innerHTML = productsInTrolley.reduce((acc, product) => acc + (product.precio * product.cantidad ),0  )
+}
+
+buttonBuy.addEventListener("click" , buyTrolley)
+function buyTrolley(){
+
+    productsInTrolley.length = 0
+    localStorage.setItem("products-in-trolley" ,JSON.stringify(productsInTrolley))
+    
+    containerTrolleyEmpty.classList.add("disabled");
+    containerTrolleyProducts.classList.add("disabled");
+    containerTrolleyActions.classList.add("disabled");
+    containerTrolleyBuy.classList.remove("disabled");
+
 }
