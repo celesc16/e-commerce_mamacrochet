@@ -1,157 +1,156 @@
 [
     {
-        "id": "Set-de-hipopotamo",
-        "titulo": "Set de Hipopotamo",
-        "imagen": "imagenes/hipo.jpg",
-        "categoria": {
-            "clase": "MasPopulares",
-            "nombre": "Set de Bienvenidas",
-            "id": "set-de-bienvenidas"
+        "id" : "Conjunto-de-hipopotamo" ,
+        "titulo" : "Conjunto de Hipopotamo" ,
+        "imagen" : "imagenes/hipo.jpg" ,
+        "clase" : "MásPopulares" ,
+        "categoría" : {
+            "nombre" : "Conjunto de Bienvenidas" ,
+            "id" : "set-de-bienidas"
         },
-        "precio": 850
+        "precio" : 850
 
     },
 
     {
-        "id": "Set-de-conejo",
-        "titulo": "Set de conejo",
-        "imagen": "imagenes/set-bienbenida.jpg",
-        "categoria": {
-            "clase": "MasPopulares",
-            "nombre": "Set de Bienvenidas",
-            "id": "set-de-bienvenidas"
+        "id" : "Conjunto-de-conejo" ,
+        "titulo" : "Conjunto de conejo" ,
+        "imagen" : "imagenes/set-bienbenida.jpg" ,
+        "clase" : "MásPopulares" ,
+        "categoría" : {
+            "nombre" : "Conjunto de Bienvenidas" ,
+            "id" : "set-de-bienvenidas"
         },
-        "precio": 850
+        "precio" : 850
 
     },
 
     {
-        "id": "amigurumi-bayyoda",
-        "titulo": "Baby Yoda",
-        "imagen": "imagenes/babyyoda.jpg",
-        "categoria": {
-            "clase": "MasPopulares",
-            "nombre": "Peliculas-animes",
-            "id": "peliculas-animes"
+        "id" : " amigurumi-bayyoda " ,
+        "titulo" : "Bebé Yoda" ,
+        "imagen" : "imagenes/babyyoda.jpg" ,
+        "clase" : "MásPopulares" ,
+        "categoría" : {
+            "nombre" : "Peliculas-animes" ,
+            "id" : "peliculas-animes"
         },
-        "precio": 850
+        "precio" : 850
 
     },
 
     {
-        "id": "amigurumi-conejo-azul",
-        "titulo": "Conejo Pepe",
-        "imagen": "imagenes/conejoh.jpg",
-        "categoria": {
-            "clase": "MasPopulares",
-            "nombre": "Animeales",
-            "id": "animales"
+        "id" : " amigurumi-conejo-azul " ,
+        "titulo" : "Conejo Pepe" ,
+        "imagen" : "imagenes/conejoh.jpg" ,
+        "clase" : "MásPopulares" ,
+        "categoría" : {
+            "nombre" : "Animeales" ,
+            "id" : "animales"
         },
-        "precio": 850
+        "precio" : 850
 
     },
 
     {
-        "id": "amigurmi-pac-man",
-        "titulo": "Pac Man",
-        "imagen": "imagenes/Pac-Man-Cover.png",
-        "categoria": {
-            "clase": "MasPopulares",
-            "nombre": "Videojuegos",
-            "id": "videojuegos"
+        "id" : "amigurumi-pac-man" ,
+        "titulo" : "Pac Man" ,
+        "imagen" : "imagenes/Pac-Man-Cover.jpg" ,
+        "clase" : "MásPopulares" ,
+        "categoría" : {
+            "nombre" : "Videojuegos " ,
+            "id" : "videojuegos "
         },
-        "precio": 850
+        "precio" : 850
 
     },
 
     {
-        "id": "sujetadores-mono",
-        "titulo": "Sujetadores Mono",
-        "imagen": "imagenes/sujetadores-mono.jpg",
-        "categoria": {
-            "clase": "MasPopulares",
-            "nombre": "Sujetadores",
-            "id": "sujetadores"
+        "id" : " sujetadores-mono" ,
+        "titulo" : "Sujetadores Mono" ,
+        "imagen" : "imagenes/sujetadores-mono.jpg" ,
+        "clase" : "MásPopulares" ,
+        "categoría" : {
+            "nombre" : "Sujetadores" ,
+            "id" : "sujetadores"
         },
-        "precio": 850
+        "precio" : 850
 
     },
     {
-        "id": "Set-de-hipopotamo",
-        "titulo": "Set de Hipopotamo",
-        "imagen": "imagenes/hipo.jpg",
-        "categoria": {
-            "clase": "Ofertas",
-            "nombre": "Set de Bienvenidas",
-            "id": "set-de-bienvenidas"
+        "id" : " Conjunto-de-hipopotamo " ,
+        "titulo" : "Conjunto de Hipopotamo " ,
+        "imagen" : "imagenes/hipo.jpg " ,
+        "clase" : "Ofertas" ,
+        "categoría" : {
+            "nombre" : "Conjunto de Bienvenidas" ,
+            "id" : "set-de-bienidas"
         },
-        "precio": 700
-
-    },
-
-    {
-        "id": "Set-de-conejo",
-        "titulo": "Set de conejo",
-        "imagen": "imagenes/set-bienbenida.jpg",
-        "categoria": {
-            "clase": "Ofertas",
-            "nombre": "Set de Bienvenidas",
-            "id": "set-de-bienvenidas"
-        },
-        "precio": 700
+        "precio" : 700
 
     },
 
     {
-        "id": "amigurumi-bayyoda",
-        "titulo": "Baby Yoda",
-        "imagen": "imagenes/babyyoda.jpg",
-        "categoria": {
-            "clase": "Ofertas",
-            "nombre": "Peliculas-animes",
-            "id": "peliculas-animes"
+        "id" : " Conjunto-de-conejo " ,
+        "titulo" : "Conjunto de conejo" ,
+        "imagen" : "imagenes/set-bienbenida.jpg" ,
+        "clase" : "Ofertas" ,
+        "categoría" : {
+            "nombre" : "Conjunto de Bienvenidas" ,
+            "id" : "set-de-bienvenidas"
         },
-        "precio": 700
+        "precio" : 700
 
     },
 
     {
-        "id": "amigurumi-conejo-azul",
-        "titulo": "Conejo Pepe",
-        "imagen": "imagenes/conejoh.jpg",
-
-        "categoria": {
-            "clase": "Ofertas",
-            "nombre": "Animeales",
-            "id": "animales"
+        "id" : "amigurumi-bayyoda" ,
+        "titulo" : "Bebé Yoda" ,
+        "imagen" : "imagenes/babyyoda.jpg" ,
+        "clase" : "Ofertas" ,
+        "categoría" : {
+            "nombre" : "Peliculas-animes" ,
+            "id" : "peliculas-animes"
         },
-        "precio": 700
+        "precio" : 700
 
     },
 
     {
-        "id": "amigurmi-pac-man",
-        "titulo": "Pac Man",
-        "imagen": "imagenes/Pac-Man-Cover.png",
-        "categoria": {
-            "clase": "Ofertas",
-            "nombre": "Videojuegos",
-            "id": "videojuegos"
+        "id" : "amigurumi-conejo-azul" ,
+        "titulo" : "Conejo Pepe" ,
+        "imagen" : "imagenes/conejoh.jpg" ,
+        "clase" : "Ofertas" ,
+        "categoría" : {
+            "nombre" : "Animeales" ,
+            "id" : "animales "
         },
-        "precio": 700
+        "precio" : 700
 
     },
 
     {
-        "id": "sujetadores-mono",
-        "titulo": "Sujetadores Mono",
-        "imagen": "imagenes/sujetadores-mono.jpg",
-        "categoria": {
-            "clase": "Ofertas",
-            "nombre": "Sujetadores",
-            "id": "sujetadores"
+        "id" : "amigurumi-pac-man" ,
+        "titulo" : "Pac Man" ,
+        "imagen" : "imagenes/Pac-Man-Cover.jpg" ,
+        "clase" : "Ofertas" ,
+        "categoría" : {
+            "nombre" : "Videojuegos" ,
+            "id" : "videojuegos"
         },
-        "precio": 700
+        "precio" : 700
+
+    },
+
+    {
+        "id" : " sujetadores-mono " ,
+        "titulo" : " Sujetadores Mono " ,
+        "imagen" : " imagenes/sujetadores-mono.jpg " ,
+        "clase" : "Ofertas" ,
+        "categoría" : {
+            "nombre" : " Sujetadores " ,
+            "id" : " sujetadores "
+        },
+        "precio" : 700
 
     }
 

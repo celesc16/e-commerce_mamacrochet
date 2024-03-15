@@ -8,7 +8,7 @@ fetch("/Json/products.json")
         carryProducts(products)
     })
 
-const containerProducts = document.querySelector("#container-products-popular");
+const containerProductsPopulares = document.querySelector("#container-products-popular");
 const containerProductsOfertas = document.querySelector("#container-products-ofertas");
 let buttonTrolley = document.querySelectorAll(".product-trolley");
 const number = document.querySelector("#number");
@@ -17,7 +17,7 @@ function carryProducts(){
     
     products.forEach(product => {
         const div = document.createElement("div");
-        div.classList.add("products")
+        div.classList.add("product")
         div.innerHTML = `
             <img class="product-img" src="${product.imagen}" alt="${product.titulo}" >
             <div class="product-details">
@@ -27,10 +27,10 @@ function carryProducts(){
             </div>
         `;
 
-        if(product.categoria.clase === "MasPopulares"){
-            containerProducts.appendChild(div);
+        if(product.clase === "MásPopulares"){
+            containerProductsPopulares.appendChild(div);
         }
-        else if(product.categoria.clase === "Ofertas"){
+        else if(product.clase === "Ofertas"){
             containerProductsOfertas.appendChild(div);
         }
 
