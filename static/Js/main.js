@@ -10,6 +10,7 @@ fetch("/Json/products.json")
 
 const containerProductsPopulares = document.querySelector("#container-products-popular");
 const containerProductsOfertas = document.querySelector("#container-products-ofertas");
+const linksCategory = document.querySelectorAll(".link-categorys")
 let buttonTrolley = document.querySelectorAll(".product-trolley");
 const number = document.querySelector("#number");
 
@@ -42,7 +43,7 @@ function carryProducts(){
 
 carryProducts(products);
 
-//Las categorias 
+//Categorias 
 
 //carritoagregar
 

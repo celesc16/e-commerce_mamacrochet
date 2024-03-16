@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;500;700&display=swap');
 
 :root{
+    --clr-header: #f1eeee;
     --clr-nav: #a36d68;
     --clr-white: #dddddd;
     --clr-letra: white;
@@ -10,7 +11,9 @@
     --clr-logo: #e1b8af;
     --clr-grey: #f7f7f7;
     --clr-red: #9e2222;
+    --clr-bannertext: #c7a17a;
 }
+
 
 *{
     margin: 0px;
@@ -20,6 +23,7 @@
 
 body{
     font-family: 'Ubuntu';
+    background-color: var(--clr-header);
 }
 
 ul , ol{
@@ -78,6 +82,105 @@ a{
     text-decoration: none;
     font-size: 1rem;
 }
+
+.banner{
+    background-image:  linear-gradient(80deg, #332f2f, #16161620) ,url('/static/imagenes/fliaconejos.jpg');
+    height: 52rem;
+	background-size: cover;
+	background-position: center;
+}
+
+.contentbanner{
+    max-width: 90rem;
+	margin: 0 auto;
+	padding: 35rem 0;
+}
+
+.contentbanner p {
+    text-align: center;
+    color: var(--clr-bannertext);
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    margin-right: 40rem;
+    font-weight: 500;
+    
+}
+
+.top-categories{
+    display: flex;
+	flex-direction: column;
+	gap: 2rem;
+	margin-bottom: 3rem;
+}
+
+.container-categories {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 3rem;
+}
+
+.card-category {
+	height: 20rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	border-radius: 2rem;
+	gap: 2rem;
+}
+
+.category-set-bebes {
+	background-image: linear-gradient(#00000080, #00000080),
+		url("/static/imagenes/set-bienbenida.jpg");
+	background-size: cover;
+	background-position: bottom;
+	background-repeat: no-repeat;
+}
+
+.category-Peliculasyanime {
+	background-image: linear-gradient(#00000080, #00000080),
+		url("/static/imagenes/babyyoda.jpg");
+	background-size: cover;
+	background-position: cover;
+	background-repeat: no-repeat;
+}
+
+.category-Sujetadores {
+	background-image: linear-gradient(#00000080, #00000080),
+		url("/static/imagenes/unicornio.jpg");
+	background-size: cover;
+	background-position: bottom;
+	background-repeat: no-repeat;
+}
+
+.card-category p {
+	font-size: 2.5rem;
+	color: #fff;
+	text-transform: capitalize;
+	position: relative;
+}
+
+.card-category p::after {
+	content: '';
+	width: 2.5rem;
+	height: 2px;
+	background-color: #fff;
+	position: absolute;
+	bottom: -1rem;
+	left: 50%;
+	transform: translate(-50%, 50%);
+}
+
+.card-category span {
+	font-size: 1.6rem;
+	color: #fff;
+	cursor: pointer;
+}
+
+.card-category span:hover {
+	color: var(--primary-color);
+}
+
 
 .title-recommend{
     text-transform: uppercase;
@@ -172,6 +275,7 @@ footer .container_footer .box h2{
     margin-bottom: 1rem;
     font-size: 20px;
     text-align: center;
+    text-decoration: none;
 }
 
 footer .container_footer .box p{
