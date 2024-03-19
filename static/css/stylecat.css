@@ -96,104 +96,6 @@ a{
 	margin: 0 auto;
 }
 
-.banner{
-    background-image:  linear-gradient(80deg, #332f2f, #16161620) ,url('/static/imagenes/fliaconejos.jpg');
-    height: 75rem;
-	background-size: cover;
-	background-position: center;
-}
-
-.contentbanner{
-    max-width: 90rem;
-	margin: 0 auto;
-	padding: 55rem 0;
-}
-
-.contentbanner h2 {
-    text-align: center;
-    color: var(--clr-bannertext);
-    font-size: 2.6rem;
-    margin-right: 40rem;
-    font-weight: 500;
-    
-}
-
-.top-categories{
-    display: flex;
-	flex-direction: column;
-	gap: 2rem;
-	margin-bottom: 3rem;
-}
-
-.container-categories {
-	display: grid;
-	grid-template-columns: repeat(3, 1fr);
-	gap: 3rem;
-}
-
-.card-category {
-	height: 20rem;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	border-radius: 2rem;
-	gap: 2rem;
-    
-}
-
-.category-set-bebes {
-	background-image: linear-gradient(#00000080, #00000080),
-		url("/static/imagenes/set-bienbenida.jpg");
-	background-size: cover;
-	background-position: cover;
-	background-repeat: no-repeat;
-}
-
-.category-Peliculasyanime {
-	background-image: linear-gradient(#00000080, #00000080),
-		url("/static/imagenes/babyyoda.jpg");
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
-}
-
-.category-Sujetadores {
-	background-image: linear-gradient(#00000080, #00000080),
-		url("/static/imagenes/unicornio.jpg");
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
-}
-
-.card-category p {
-	font-size: 2.5rem;
-	color: #fff;
-	text-transform: capitalize;
-	position: relative;
-}
-
-.card-category p::after {
-	content: '';
-	width: 2.5rem;
-	height: 2px;
-	background-color: #fff;
-	position: absolute;
-	bottom: -1rem;
-	left: 50%;
-	transform: translate(-50%, 50%);
-}
-
-.card-category span {
-	font-size: 1.6rem;
-	color: #fff;
-	cursor: pointer;
-}
-
-.card-category span:hover {
-	color: var(--primary-color);
-}
-
 .heading-1{
     text-align: center;
     font-weight: 500;
@@ -201,29 +103,30 @@ a{
     margin: 2rem 0;
 }
 
-.top-products {
+.products-category{
     display: flex;
 	flex-direction: column;
 	gap: 2rem;
-	margin-bottom: 3rem;
 }
+
 .products-recommend{
     display: grid;
 	grid-template-columns: repeat(3, 1fr);
 	gap: 3rem;
 }
 
-.product-img {
-    width: 34rem;
-    height: 26rem;
+.productCat-img{
+    width: 32rem;
+    height: 28rem;
     object-fit: cover;
     display: block;
     border-radius: 2rem;
 }
 
-.product-details{
+
+.product-detailsCa{
     background-color: var(--clr-nav);
-    width: 34rem;
+    width: 32rem;
     height: 12rem;
     color: var(--clr-letra);
     padding: 1.6rem 1.5rem;
@@ -234,11 +137,23 @@ a{
     display: flex;
     flex-direction: column;
     gap: .7rem;
+    font-size: 1.5rem;
     
 }
 
-.product-details{
-    font-size: 1.5rem;
+.product {
+    position: relative;
+}
+
+.product .productCat-img,
+.product .product-detailsCa {
+    cursor: pointer;
+    transition: border-color 0.3s ease; /* Agrega una transición suave de 0.3 segundos para el cambio de color del borde */
+}
+
+.product:hover .productCat-img,
+.product:hover .product-detailsCa {
+    border: 2px solid black; /* Cambia el color del borde al pasar el puntero sobre la imagen o los detalles */
 }
 
 .product-trolley{
@@ -257,6 +172,7 @@ a{
     background-color: var(--clr-nav);
     color: var(--clr-white);
 }
+
 
 .contact-text{
     font-size: 1.5rem;

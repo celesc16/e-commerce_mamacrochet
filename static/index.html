@@ -4,39 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mama crochet</title>
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
+    <div class="container-navbar">
+        <nav class="navbar container">
+            <header>
+                <h1 class="logo"><img src="#" alt="">Mama Crochet</h1>
+            </header>
+            <ul>
+                <li><a href="/static/index.html">Inicio</a></li>
+                <li><a href="#">Categoria</a>
+                    <ul>
+                        <li id="sujetadores" class="link-categorys"><a href="/static/Categoria/sujetadores.html">Sujetadores</a></li>
+                        <li id="animales" class="link-categorys"><a href="/static/Categoria/animales.html">Animales</a></li>
+                        <li id="videojuegos" class="link-categorys"><a href="/static/Categoria/videojuegos.html">Videojuegos</a></li>
+                        <li id="set-bienvenida" class="link-categorys"><a href="/static/Categoria/bienvenida.html">Set de Bienvenida</a></li>
+                        <li id="peli-anime" class="link-categorys"><a href="/static/Categoria/pelis-anime.html">Peliculas y Anime</a></li>
+                    </ul>
+                    
+                </li>
 
-    <nav class="navbar">
-        <header>
-            <h1 class="logo"><img src="#" alt="">Mama Crochet</h1>
-        </header>
-        <ul>
-            <li><a href="/static/index.html">Inicio</a></li>
-            <li><a href="#">Categoria</a>
-                <ul>
-                    <li id="sujetadores" class="link-categorys"><a href="/static/Categoria/sujetadores.html">Sujetadores</a></li>
-                    <li id="animales" class="link-categorys"><a href="/static/Categoria/animales.html">Animales</a></li>
-                    <li id="videojuegos" class="link-categorys"><a href="/static/Categoria/videojuegos.html">Videojuegos</a></li>
-                    <li id="set-bienvenida" class="link-categorys"><a href="/static/Categoria/bienvenida.html">Set de Bienvenida</a></li>
-                    <li id="peli-anime" class="link-categorys"><a href="/static/Categoria/pelis-anime.html">Peliculas y Anime</a></li>
-                </ul>
-                
+                <li>
+                <a href="carrito.html">
+                    <i class="fa-solid fa-cart-shopping"></i> Carrito <span id="number" class="number">0</span>
+                </a>  
             </li>
-
-            <li>
-             <a href="carrito.html">
-                <i class="fa-solid fa-cart-shopping"></i> Carrito <span id="number" class="number">0</span>
-             </a>  
-           </li>
-        </ul>
-    </nav>
-
+            </ul>
+        </nav>
+    </div>
     <section class="banner">
         <div class="contentbanner">
-            <p>Siempre con vos, Brindando Buena Calidad y Precio</p>
+            <h2>Siempre con vos, Brindando Buena Calidad y Precio</h2>
         </div>
     </section>
 
@@ -57,14 +56,15 @@
             </div>
         </div>
     </section>
-    <main>
-        <h2 class="title-recommend">Mas Populares</h2>
-        <div id ="container-products-popular" class="products-recommend">
-            <!--Se llena con Js-->
+    <main class="container top-products">
+            <h2 class="heading-1">Mas Populares</h2>
+            <div id ="container-products-popular" class="products-recommend">
+                <!--Se llena con Js-->
+            </div>
     </main>    
 
-    <article>
-        <h2 class="title-recommend">Ofertas</h2>
+    <article class="container">
+        <h2 class="heading-1">Ofertas</h2>
         <div id="container-products-ofertas" class="products-recommend">
           <!--Se llena con Js-->
         </div>
@@ -98,7 +98,6 @@
         </div>
 
     </footer>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
     <script src="https://kit.fontawesome.com/81581fb069.js" crossorigin="anonymous"></script>
     <script src="/static/Js/main.js"></script>
 </body>
